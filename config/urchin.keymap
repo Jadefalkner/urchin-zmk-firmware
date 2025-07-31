@@ -23,10 +23,11 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1800  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 30    // default: 10
 
-&sk {
-    // don't release mods on other mods presses
-
-    ignore-modifiers;
+&mt {
+    quick-tap-ms = <100>;
+    global-quick-tap;
+    flavor = "tap-preferred";
+    tapping-term-ms = <170>;
 };
 
 / {
