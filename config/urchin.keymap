@@ -230,6 +230,8 @@
         navlayer {
             bindings = <&mo 1>;
             key-positions = <23 22>;
+            layers = <0>;
+            timeout-ms = <40>;          
         };
     };
 
